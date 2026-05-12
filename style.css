@@ -1,7 +1,3 @@
-/* =========================
-       BODY STYLING
-    ========================== */
-
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
@@ -13,10 +9,6 @@ body {
   height: 100vh;
   margin: 0;
 }
-
-/* =========================
-       MAIN CONTAINER
-    ========================== */
 
 .todo-container {
   background-color: white;
@@ -32,10 +24,6 @@ body {
 h1 {
   text-align: center;
 }
-
-/* =========================
-       INPUT SECTION
-    ========================== */
 
 .input-section {
   display: flex;
@@ -64,10 +52,6 @@ h1 {
   background-color: darkblue;
 }
 
-/* =========================
-       TASK LIST
-    ========================== */
-
 ul {
   list-style: none;
   padding: 0;
@@ -89,33 +73,20 @@ li {
   align-items: center;
 }
 
-/* =========================
-       TASK TEXT
-    ========================== */
-
 .task-text {
   flex: 1;
 }
-
-/* Completed Task Style */
 
 .completed {
   text-decoration: line-through;
   color: gray;
 }
 
-/* =========================
-       BUTTON CONTAINER
-    ========================== */
 
 .button-group {
   display: flex;
   gap: 5px;
 }
-
-/* =========================
-       COMPLETE BUTTON
-    ========================== */
 
 .complete-btn {
   background-color: green;
@@ -134,9 +105,6 @@ li {
   background-color: darkgreen;
 }
 
-/* =========================
-       UPDATE BUTTON
-    ========================== */
 
 .update-btn {
   background-color: orange;
@@ -154,10 +122,6 @@ li {
 .update-btn:hover {
   background-color: darkorange;
 }
-
-/* =========================
-       DELETE BUTTON
-    ========================== */
 
 .delete-btn {
   background-color: red;
