@@ -1,0 +1,177 @@
+/* =========================
+       BODY STYLING
+    ========================== */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  margin: 0;
+}
+
+/* =========================
+       MAIN CONTAINER
+    ========================== */
+
+.todo-container {
+  background-color: white;
+  width: 450px;
+
+  padding: 20px;
+
+  border-radius: 10px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+/* =========================
+       INPUT SECTION
+    ========================== */
+
+.input-section {
+  display: flex;
+  gap: 10px;
+}
+
+#taskInput {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#addBtn {
+  padding: 10px 15px;
+
+  border: none;
+  background-color: blue;
+  color: white;
+
+  cursor: pointer;
+
+  border-radius: 5px;
+}
+
+#addBtn:hover {
+  background-color: darkblue;
+}
+
+/* =========================
+       TASK LIST
+    ========================== */
+
+ul {
+  list-style: none;
+  padding: 0;
+
+  margin-top: 20px;
+}
+
+li {
+  background-color: #f9f9f9;
+
+  margin-bottom: 10px;
+
+  padding: 10px;
+
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* =========================
+       TASK TEXT
+    ========================== */
+
+.task-text {
+  flex: 1;
+}
+
+/* Completed Task Style */
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+/* =========================
+       BUTTON CONTAINER
+    ========================== */
+
+.button-group {
+  display: flex;
+  gap: 5px;
+}
+
+/* =========================
+       COMPLETE BUTTON
+    ========================== */
+
+.complete-btn {
+  background-color: green;
+  color: white;
+
+  border: none;
+
+  padding: 5px 10px;
+
+  cursor: pointer;
+
+  border-radius: 5px;
+}
+
+.complete-btn:hover {
+  background-color: darkgreen;
+}
+
+/* =========================
+       UPDATE BUTTON
+    ========================== */
+
+.update-btn {
+  background-color: orange;
+  color: white;
+
+  border: none;
+
+  padding: 5px 10px;
+
+  cursor: pointer;
+
+  border-radius: 5px;
+}
+
+.update-btn:hover {
+  background-color: darkorange;
+}
+
+/* =========================
+       DELETE BUTTON
+    ========================== */
+
+.delete-btn {
+  background-color: red;
+  color: white;
+
+  border: none;
+
+  padding: 5px 10px;
+
+  cursor: pointer;
+
+  border-radius: 5px;
+}
+
+.delete-btn:hover {
+  background-color: darkred;
+}
